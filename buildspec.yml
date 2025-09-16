@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions: 
+        nodejs: 22
+    commands:
+      - "npm install npm@10 -g && node -v && npm -v"
+      - "yarn install"
+  
+  build:
+    commands:
+      - "yarn build"
+  
+  post_build:
+    commands:
+      - "aws s3 cp dist/ s3://fup-frontend/ --recursive"
+      - 'aws cloudfront create-invalidation --distribution-id EFGSBDKXVICVT --paths "/*"'

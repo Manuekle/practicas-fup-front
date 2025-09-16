@@ -1,0 +1,134 @@
+{
+  "navbar": {
+    "search": {
+      "text": "Buscar..."
+    },
+    "dropdown": {
+      "notification": {
+        "badge": "3",
+        "text": "Notificaciones",
+        "subtext": "Ver todo",
+        "order": {
+          "title": "Su pedido es realizado",
+          "text": "Si varios idiomas fusionan la gramática",
+          "time": "Hace 3 minutos"
+        },
+        "james": {
+          "title": "James Lemire",
+          "text": "Parecerá un inglés simplificado.",
+          "time": "Hace 1 hora"
+        },
+        "item": {
+          "title": "Your item is shipped",
+          "text": "Si varios idiomas fusionan la gramática",
+          "time": "Hace 3 minutos"
+        },
+        "salena": {
+          "title": "Salena Layfield",
+          "text": "As a skeptical Cambridge friend of mine occidental.",
+          "time": "Hace 1 hora"
+        },
+        "button": "Carga más.."
+      },
+      "henry": {
+        "text": "Henry",
+        "list": {
+          "logout": "Cerrar Sesión"
+        }
+      }
+    }
+  },
+  "menuitems": {
+    "menu": {
+      "text": "Menú"
+    },
+    "convenios": {
+      "text": "Convenios",
+      "list": {
+        "list": "Lista",
+        "create": "Crear"
+      }
+    },
+    "documentos": {
+      "text": "Documentos",
+      "list": {
+        "create": "Crear",
+        "list": "Lista"
+      }
+    },
+    "empresas": {
+      "text": "Empresas",
+      "list": {
+        "create": "Registrar",
+        "list": "Lista"
+      }
+    },
+    "practica": {
+      "text": "Practica",
+      "list": {
+        "create": "Crear",
+        "list": "Lista",
+        "seguimiento": "Seguimiento"
+      }
+    },
+    "estudiante": {
+      "text": "Estudiantes",
+      "list": {
+        "create": "Registrar",
+        "list": "Lista"
+      }
+    },
+    "docente": {
+      "text": "Docentes",
+      "list": {
+        "create": "Registrar",
+        "list": "Lista"
+      }
+    },
+    "programa": {
+      "text": "Programas",
+      "list": {
+        "create": "Registrar",
+        "list": "Lista"
+      }
+    },
+    "sustentacion": {
+      "text": "Sustentaciones",
+      "list": {
+        "create": "Registrar",
+        "list": "Lista"
+      }
+    },
+    "ofertapractica": {
+      "text": "Oferta Practica",
+      "list": {
+        "create": "Crear",
+        "list": "Lista"
+      }
+    },
+    "dashboards": {
+      "text": "Tableros",
+      "list": {
+        "default": "Defecto"
+      }
+    },
+    "admin": {
+      "text": "Gestión de usuarios",
+      "list": {
+        "users": {
+          "text": "Usuarios",
+          "create": "Crear",
+          "list": "Lista"
+        },
+        "role": {
+          "text": "Roles",
+          "create": "Crear",
+          "list": "Lista"
+        }
+      }
+    },
+    "pages": {
+      "text": "Módulos"
+    }
+  }
+}
