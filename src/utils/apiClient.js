@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useAuthStore } from '@/state/pinia'; // Importa el store de autenticación
 
 const apiClient = axios.create({
-  baseURL: `${process.env.VUE_APP_BASE_API_URL}/api/v1`,
+  baseURL: 'http://192.168.202.11:8000/api/v1',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
